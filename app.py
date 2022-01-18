@@ -140,7 +140,7 @@ span.psw {
 
 <h2 style='margin-top:100px; text-align:center; color:blue;'>Admin Login Page</h2>
 
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;margin-left:550px">Login</button>
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;margin-left:650px">Login</button>
 
 
 <div id="id01" class="modal">
