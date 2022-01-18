@@ -4,11 +4,11 @@ import os
 app = Flask(__name__)
 
 @app.route("/")
-def hello():
+def index():
   return '''<h1 style='color: blue;'>Grettings from Suroj!!</h1>'''
 
-@app.route("/aboutus")
-def aboutus():
+@app.route("/about")
+def about():
   return '''<h1 style='color: green;'>This is about us</h1>'''
 
 if __name__ == "__main__":
