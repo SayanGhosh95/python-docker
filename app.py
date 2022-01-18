@@ -9,7 +9,7 @@ def index():
   return '''<h1 style='color: blue;'>Grettings from Suroj!! Welcome you all!!</h1>'''
 
 @app.route("/dashboard")
-def about():
+def dashboard():
   #return '''<h1 style='color: green;'>This is about us</h1>'''
   return render_template("about.html")
   
