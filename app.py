@@ -11,7 +11,7 @@ def index():
 @app.route("/dashboard")
 def dashboard():
   #return '''<h1 style='color: green;'>This is about us</h1>'''
-  return render_template("about.html")
+  return render_template("dashboard.html")
   
 if __name__ == "__main__":
   port =  int(os.environ.get("PORT",8081))
