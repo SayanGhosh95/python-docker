@@ -2,10 +2,14 @@ from flask import Flask
 import os
 
 app = Flask(__name__)
-@app.route("/")
 
+@app.route("/")
 def hello():
-  return '''<h1 style='color: red;'>I'm a red H1 heading!</h1>'''
+  return '''<h1 style='color: blue;'>Grettings from Suroj!!</h1>'''
+
+@app.route("/aboutus")
+def aboutus():
+  return '''<h1 style='color: green;'>This is about us</h1>'''
 
 if __name__ == "__main__":
   port =  int(os.environ.get("PORT",8081))
