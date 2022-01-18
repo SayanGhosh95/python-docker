@@ -60,18 +60,6 @@ button:hover {
   background-color: #f44336;
 }
 
-/* Center the image and position the close button */
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-  position: relative;
-}
-
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
-}
-
 .container {
   padding: 16px;
 }
@@ -152,15 +140,12 @@ span.psw {
 
 <h2 style='margin-top:100px; text-align:center; color:blue;'>Admin Login Page</h2>
 
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto; margin-left:300px;">Login</button>
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;margin-left:550px">Login</button>
+
 
 <div id="id01" class="modal">
   
   <form class="modal-content animate" action="/action_page.php" method="post">
-    <div class="imgcontainer">
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="img_avatar2.png" alt="Avatar" class="avatar">
-    </div>
 
     <div class="container">
       <label for="uname"><b>Username</b></label>
@@ -195,7 +180,8 @@ window.onclick = function(event) {
 </script>
 
 </body>
-</html>'''
+</html>
+'''
   
 if __name__ == "__main__":
   port =  int(os.environ.get("PORT",8081))
