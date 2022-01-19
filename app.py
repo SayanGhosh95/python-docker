@@ -15,7 +15,7 @@ div {text-align: center;}
 </style>
 </head>
 <body>
-<h1>Grettings from Suroj!!</h1>
+<h1>Greetings from Suroj!!</h1>
 <h2>Welcome you all to Dockerized Python application!!</h2>
 </body>
 </html>'''
